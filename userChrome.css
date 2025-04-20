@@ -1,0 +1,56 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+#preferences-button {
+  display: none !important;
+}
+
+#zen-workspaces-button {
+  display: none !important;
+}
+
+#downloads-button {
+  display: none !important;
+}
+
+#sb2-splitter-pinned {
+  opacity: 0 !important;
+  margin-left: 0px !important;
+  margin-right: -12px !important;
+}
+
+#sb2-box {
+  padding-left: 0px !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  #sb2-toolbar {
+    background-color: #1b1c1d !important;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  #sb2-toolbar {
+    background-color: white !important;
+  }
+
+  #sb2-toolbar .toolbarbutton-icon {
+    fill: #ccc !important;
+  }
+
+  #sb2-toolbar-nav-buttons > .sb2-toolbar-button[image*="back.svg"] {
+    display: none !important;
+  }
+
+  #sb2-toolbar-nav-buttons > .sb2-toolbar-button[image*="forward.svg"] {
+    display: none !important;
+  }
+}
+
+.sb2-container {
+  box-shadow: none !important;
+  padding: 10px !important;
+}
+
+.sb2-main {
+  opacity: 0 !important;
+}

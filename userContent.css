@@ -1,0 +1,37 @@
+@-moz-document domain(web.whatsapp.com) {
+  .two header {
+    display: none !important;
+  }
+
+  ._ak8i {
+    display: none !important;
+  }
+
+  @media screen and (max-width: 748px) {
+    ._aigs {
+      min-width: 0px !important;
+    }
+  }
+
+  .two ._aigw:not(._asu3) {
+    max-width: 30% !important;
+  }
+
+  #side div[aria-label="chat-list-filters"] {
+    display: none !important;
+  }
+
+  :root {
+    --conversation-header-border: #fff !important;
+  }
+
+  /* Hide Get WhatsApp for Windows ad */
+  .x1qughib {
+    display: none !important;
+  }
+
+  /* Hide another Get WhatsApp for Windows ad */
+  .xktia5q {
+    display: none !important;
+  }
+}
